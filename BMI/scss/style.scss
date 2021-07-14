@@ -1,0 +1,35 @@
+// %transition {
+//     transition: all .3s ease;
+// }
+
+// .btn {
+//     padding: 6px 12px;
+//     background: $primary;
+//     @extend %transition;
+
+//     &:hover {
+//         background: darken($primary, 5%);
+//     }
+
+//     &:active {
+//         background: darken($primary, 10%);
+//     }
+// }
+
+$primary: #FFD366;
+$primary-Active:#DEA821;
+$primary-Darker:#866A23;
+$secondaray: #424242;
+$range1: #31BAF9;
+$range2: #86D73F;
+$range3: #FF982D;
+$range4: #FF6C03;
+$range5: #FF1200;
+
+
+body {
+    color: $primary;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}

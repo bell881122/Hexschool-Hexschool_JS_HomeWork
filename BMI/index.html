@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./scss/style.css">
+
+</head>
+
+<body>
+    <div class="formArea">
+
+        <div class="wrap">
+            <div class="BMICLogo">
+                <img id="BMICLogo" src="./PIC/BMICLogo.png" alt="BMI caculator">
+            </div>
+            <div class="BMIform">
+
+                <div class="height-formgroup">
+                    <label for="heightInput">身高cm</label>
+                    <input type="text" name="heightInput" class="heightInput" placeholder="請輸入身高">
+                </div>
+                <div class="weight-formgroup">
+                    <label for="weightInput">體重kg</label>
+                    <input type="text" name="weightInput" class="weightInput" placeholder="請輸入體重">
+                </div>
+            </div>
+            <div class="result">
+
+                <!-- <div class="resultBtn"> -->
+                <div class="resultBtn">
+                    <div class="BMI-group">
+
+                        <p class="BMIResult range2"></p>
+                        <p class="BMIText"></p>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <div class="range"></div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="recordsList">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+
+    </div>
+
+<script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+body {
+    color: #FFD366;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.formArea {
+    background-color: #424242;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 80%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 375px) {}
+
+.BMICLogo {
+    width: 117px;
+    margin: 5%;
+    display: flex;
+    background-color: #FFD366;
+}
+
+#BMICLogo {
+    max-width: 117px;
+    min-width: 100px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.BMIform {
+    margin: 5%;
+    margin: 0 auto;
+}
+
+.BMIform>input {
+    width: 70%;
+}
+
+.height-formgroup, .weight-formgroup {
+    padding: 10px 5px;
+    display: block;
+}
+
+.height-formgroup>input, .weight-formgroup>input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 7px;
+    border: solid 1.5px;
+    border-color: #FFD366;
+    background-color: #424242;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    background-color: #000000;
+}
+
+input::placeholder {
+    color: #ffffff8e;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+}
+
+/* .resultBtn {
+    border-radius: 50%;
+    width: 126px;
+    height: 126px;
+    margin: auto auto;
+    display: flex;
+    background-color: #424242;
+} */
+
+.resultBtn {
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFD366;
+    border: solid 5px #424242;
+}
+
+.resultBtn:hover {
+    border-color: #866A23;
+}
+
+.resultBtn:active {
+    background-color: #DEA821;
+}
+
+.BMI-group {
+    margin: auto auto;
+}
+
+.BMIResult {
+    /* margin: auto auto; */
+    color: #424242;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.BMIText {
+    margin: 0;
+}
+
+.range {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.resultClicked {
+    background-color: #424242;
+}
+
+.result .range1 {
+    border-color: #31BAF9;
+}
+
+.result .range2 {
+    border-color: #86D73F;
+}
+
+.result .range3 {
+    border-color: #FF982D;
+}
+
+.result .range4 {
+    border-color: #FF6C03;
+}
+
+.result .range5 {
+    border-color: #FF1200;
+}
+
+.result .range1-text {
+    color: #31BAF9;
+}
+
+.result .range2-text {
+    color: #86D73F;
+}
+
+.result .range3-text {
+    color: #FF982D;
+}
+
+.result .range4-text {
+    color: #FF6C03;
+}
+
+.result .range5-text {
+    color: #FF1200;
+}
